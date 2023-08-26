@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(52, 87, 123);
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+#board{
+    display: grid;
+    width: 33vw;
+    height: 33vw;
+
+    z-index: 0;
+}
+
+
+#status{
+    display: none;
+
+    color: rgb(192, 12, 12);
+    font-size: 64px;
+    font-weight: bold;
+
+    position: absolute;
+    z-index: 1;
+}
+
+.cell{
+    font-size: 100%;
+
+}
+
+
